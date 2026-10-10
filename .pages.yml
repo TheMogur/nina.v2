@@ -1,0 +1,208 @@
+media:
+  input: images
+  output: images
+  rename: safe
+  categories:
+  - image
+content:
+- name: nina
+  label: Textos i fotografies · Nora Birsan
+  type: file
+  path: content/site.json
+  format: json
+  fields:
+  - name: hero_eyebrow
+    label: Portada · Frase superior
+    type: string
+  - name: hero_name
+    label: Portada · Nom
+    type: string
+  - name: hero_role
+    label: Portada · Professió
+    type: string
+  - name: hero_lead
+    label: Portada · Presentació
+    type: text
+  - name: hero_photo
+    label: Portada · Fotografia
+    type: image
+  - name: about_title
+    label: Sobre mi · Títol
+    type: text
+  - name: about_quote
+    label: Sobre mi · Frase destacada
+    type: text
+  - name: about_paragraph_1
+    label: Sobre mi · Paràgraf 1
+    type: text
+  - name: about_paragraph_2
+    label: Sobre mi · Paràgraf 2
+    type: text
+  - name: about_paragraph_3
+    label: Sobre mi · Paràgraf 3
+    type: text
+  - name: about_photo
+    label: Sobre mi · Fotografia (opcional)
+    type: image
+  - name: formation_1_degree
+    label: Formació 1 · Títol
+    type: string
+  - name: formation_1_school
+    label: Formació 1 · Centre
+    type: string
+  - name: formation_2_degree
+    label: Formació 2 · Títol
+    type: string
+  - name: formation_2_school
+    label: Formació 2 · Centre
+    type: string
+  - name: formation_3_degree
+    label: Formació 3 · Títol
+    type: string
+  - name: formation_3_school
+    label: Formació 3 · Centre
+    type: string
+  - name: formation_4_degree
+    label: Formació 4 · Títol
+    type: string
+  - name: formation_4_school
+    label: Formació 4 · Centre
+    type: string
+  - name: formation_5_degree
+    label: Formació 5 · Títol
+    type: string
+  - name: formation_5_school
+    label: Formació 5 · Centre
+    type: string
+  - name: services_title
+    label: Serveis · Títol
+    type: string
+  - name: service_1_title
+    label: Servei 1 · Títol
+    type: string
+  - name: service_1_description
+    label: Servei 1 · Descripció
+    type: text
+  - name: service_2_title
+    label: Servei 2 · Títol
+    type: string
+  - name: service_2_description
+    label: Servei 2 · Descripció
+    type: text
+  - name: service_3_title
+    label: Servei 3 · Títol
+    type: string
+  - name: service_3_description
+    label: Servei 3 · Descripció
+    type: text
+  - name: service_4_title
+    label: Servei 4 · Títol
+    type: string
+  - name: service_4_description
+    label: Servei 4 · Descripció
+    type: text
+  - name: service_5_title
+    label: Servei 5 · Títol
+    type: string
+  - name: service_5_description
+    label: Servei 5 · Descripció
+    type: text
+  - name: service_6_title
+    label: Servei 6 · Títol
+    type: string
+  - name: service_6_description
+    label: Servei 6 · Descripció
+    type: text
+  - name: service_7_title
+    label: Servei 7 · Títol
+    type: string
+  - name: service_7_description
+    label: Servei 7 · Descripció
+    type: text
+  - name: steps_title
+    label: Procés · Títol
+    type: string
+  - name: step_1_title
+    label: Pas 1 · Títol
+    type: string
+  - name: step_1_description
+    label: Pas 1 · Descripció
+    type: text
+  - name: step_2_title
+    label: Pas 2 · Títol
+    type: string
+  - name: step_2_description
+    label: Pas 2 · Descripció
+    type: text
+  - name: step_3_title
+    label: Pas 3 · Títol
+    type: string
+  - name: step_3_description
+    label: Pas 3 · Descripció
+    type: text
+  - name: step_4_title
+    label: Pas 4 · Títol
+    type: string
+  - name: step_4_description
+    label: Pas 4 · Descripció
+    type: text
+  - name: faq_title
+    label: Preguntes freqüents · Títol
+    type: string
+  - name: faq_1_question
+    label: Pregunta 1 · Pregunta
+    type: string
+  - name: faq_1_answer
+    label: Pregunta 1 · Resposta
+    type: text
+  - name: faq_2_question
+    label: Pregunta 2 · Pregunta
+    type: string
+  - name: faq_2_answer
+    label: Pregunta 2 · Resposta
+    type: text
+  - name: faq_3_question
+    label: Pregunta 3 · Pregunta
+    type: string
+  - name: faq_3_answer
+    label: Pregunta 3 · Resposta
+    type: text
+  - name: faq_4_question
+    label: Pregunta 4 · Pregunta
+    type: string
+  - name: faq_4_answer
+    label: Pregunta 4 · Resposta
+    type: text
+  - name: faq_5_question
+    label: Pregunta 5 · Pregunta
+    type: string
+  - name: faq_5_answer
+    label: Pregunta 5 · Resposta
+    type: text
+  - name: faq_6_question
+    label: Pregunta 6 · Pregunta
+    type: string
+  - name: faq_6_answer
+    label: Pregunta 6 · Resposta
+    type: text
+  - name: faq_7_question
+    label: Pregunta 7 · Pregunta
+    type: string
+  - name: faq_7_answer
+    label: Pregunta 7 · Resposta
+    type: text
+  - name: contact_title
+    label: Contacte · Títol
+    type: string
+  - name: contact_lead
+    label: Contacte · Introducció
+    type: text
+  - name: contact_address
+    label: Contacte · Adreça
+    type: string
+  - name: contact_email
+    label: Contacte · Correu
+    type: string
+  - name: contact_modality
+    label: Contacte · Modalitat
+    type: string
