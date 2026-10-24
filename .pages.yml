@@ -6,7 +6,7 @@ media:
   - image
 content:
 - name: nina
-  label: Textos i fotografies · Nora Birsan
+  label: Textos i fotografies · Nina Borràs
   type: file
   path: content/site.json
   format: json
